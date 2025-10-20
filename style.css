@@ -1,11 +1,11 @@
 :root{
-    --bg: #f8fafc;        /* slate-50 */
+    --bg: #f8fafc;        
     --card: #ffffff;
-    --ink: #0f172a;       /* slate-900 */
-    --muted: #0f172a;     /* slate-600 */
-    --line: #e2e8f0;      /* slate-200 */
-    --accent: #c2bcbc;    /* teal-700 */
-    --accent-ink: #ecfeff;/* teal-50 */
+    --ink: #0f172a;       
+    --muted: #0f172a;     
+    --line: #e2e8f0;      
+    --accent: #c2bcbc;   
+    --accent-ink: #ecfeff;
     --radius: 16px;
     --shadow: 0 1px 2px rgba(0,0,0,.05), 0 8px 24px rgba(15,23,42,.06);
   }
@@ -59,8 +59,7 @@
     background: transparent; color: var(--ink); border-color: var(--line);
   }
   
-  /* Sections */
-  .section { padding: 40px 0; }
+    .section { padding: 40px 0; }
   .section-title { margin: 0 0 16px; font-size: 20px; font-weight: 700; }
   .headline { margin: 0; font-size: clamp(28px, 4vw, 40px); font-weight: 800; letter-spacing: -0.5px; }
   .lead { color: var(--muted); margin: 14px 0 0; max-width: 60ch; }
@@ -68,7 +67,7 @@
   .muted { color: #1f2937; }
   .muted-strong { color: #334155; font-weight: 700; }
   
-  /* Cards / layout */
+  
   .card {
     background: var(--card); border: 1px solid var(--line);
     border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow);
@@ -84,11 +83,11 @@
     .grid-2 { grid-template-columns: 1fr; }
   }
   
-  /* Key-value rows */
+  
   .kv { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; }
   .kv span:first-child { color: var(--muted); }
   
-  /* Pills / chips */
+  
   .chips {
     list-style: none; padding: 0; margin: 0;
     display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -98,7 +97,7 @@
     padding: 10px 14px; border-radius: 12px; font-size: 14px;
   }
   
-  /* Card detail blocks */
+  
   .card-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
   .card-title { font-weight: 700; }
   .card-meta { color: var(--muted); font-size: 14px; }
@@ -106,7 +105,7 @@
   .card-small { color: var(--muted); font-size: 12px; margin-top: 2px; }
   .list { margin: 10px 0 0 18px; padding: 0; }
   
-  /* Timeline */
+  
   .timeline {
     position: relative; list-style: none; padding-left: 16px; margin: 0;
     border-left: 1px solid var(--line);
@@ -121,7 +120,7 @@
   .t-meta { color: var(--muted); font-size: 14px; }
   .t-date { color: var(--muted); font-size: 12px; margin-top: 2px; }
   
-  /* Footer */
+  
   .site-footer { border-top: 1px solid var(--line); background: rgba(255,255,255,.7); }
   .footer-inner { display: flex; align-items: center; justify-content: space-between; padding: 16px 0; }
   
